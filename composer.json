@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "3.6.0",
+		"guzzlehttp/guzzle": "~6.0",
+		"monolog/monolog": "^1.0",
+		"propel/propel": "~2.0@dev",
+        "vlucas/phpdotenv": "^2.4",
+		"paquettg/php-html-parser": "1.7.0"
+    },
+	
+	"autoload": {
+		"classmap": ["src/class"]
+	},
+	
+    "require-dev": {
+        "phpunit/phpunit": "4.8"
+    }
+}
+
